@@ -10,7 +10,7 @@ function App(){
         <img src={logo} className="App-logo" alt="logo" />
                 <Button/>
         <p>
-          Hey you, you're finally awake, you tried to cross the border but ultimately failed didn't you?.
+          "Hey you, you're finally awake, you tried to cross the border but ultimately failed didn't you?."
         </p>
         <a
           className="App-link"
