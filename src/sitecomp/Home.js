@@ -1,7 +1,7 @@
-import logo from './pekodead.png';
-import './App.css';
-import Button from './sitecomp/Button';
-import Employee from './sitecomp/Employee';
+import logo from '../pekodead.png';
+import '../App.css';
+import Button from './Button';
+import Employee from './Employee';
 
 function App(){
   return (
