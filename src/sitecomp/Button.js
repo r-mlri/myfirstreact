@@ -34,7 +34,7 @@ class Button extends React.Component{
    <br/>
    <button className='dec' onClick={this.subCount}>v-Decrease Count-v</button>
    <br/>
-   <button className='reset' onClick={this.resetCount}>Reset Counter</button>
+   <button className='reset' onClick={this.resetCount}>>Reset Counter<</button>
    <h1>Current Count: {this.state.count}</h1>
   </div>
     );
