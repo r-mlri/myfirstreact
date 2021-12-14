@@ -8,6 +8,7 @@ function App() {
   <div>
     <NavBar/>
     <Router/>
+    <Home/>
   </div>
 
   );
