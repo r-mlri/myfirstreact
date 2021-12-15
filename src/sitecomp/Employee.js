@@ -1,20 +1,17 @@
 import { useEffect, useState } from "react";
 import employeeService from "../services/employeeService"
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Employee = () =>{
-    //Function hooks
     const[employees, setEmployees] = useState([])
-    
-    //usestate
-    //hooks
+
     useEffect(()=>{
       refreshEmployeeTable();
     }
     )
 
     const refreshEmployeeTable = () =>{
-        employeeService.getEmployees() //promise
+        employeeService.getEmployees()
         .then(
             response => {
                 setEmployees(response.data);

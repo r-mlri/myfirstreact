@@ -9,11 +9,12 @@ const Router = () =>{
         <div>
             <BrowserRouter>
                 <Routes>
-                    <Route exact path="/" element={<Home/>}/>
-                    <Route exact path="/employees" element={<Employee/>}/>
-                    <Route exact path="/add" element={<AddEmployee/>}/>
-                    <Route exact path="/edit/:employeeId" element={<AddEmployee/>}/>
-                    <Route exact path="*" element={<PageNotFound/>}/>
+                    <Route exact path = "/myfirstreact" element={<Home/>}/>
+                    <Route exact path = "/myfirstreact/" element={<Home/>}/>
+                    <Route exact path = "/Employee" element={<Employee/>}/>
+                    <Route exact path = "/AddEmployee" element={<AddEmployee/>}/>
+                    <Route exact path = "/Edit/:id" element={<AddEmployee/>}/>
+                    <Route exact path = "*" element={<PageNotFound/>}/>
                 </Routes>
             </BrowserRouter>
         </div>

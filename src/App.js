@@ -1,7 +1,7 @@
 import './App.css';
+import Home from './sitecomp/Home';
 import NavBar from './sitecomp/NavBar';
-import Home from './sitecomp/Home.js';
-import Router from './sitecomp/Router.js';
+import Router from './sitecomp/Router';
 
 function App() {
   return (
